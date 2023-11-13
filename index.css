@@ -249,14 +249,14 @@ i {
 
     .Further {
 
-        font-size: xx-small;
+        font-size: x-small;
 
 
 
     }
 
     .drip_small_text {
-        font-size: 2vh;
+        font-size: 3.4vh;
 
     }
 
@@ -265,7 +265,7 @@ i {
     }
 
     .sp {
-        font-size: x-small;
+        font-size: 3.3vh;
     }
 
     .further h1 {
@@ -297,16 +297,17 @@ i {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: xx-small;
+        font-size: small;
         font-size: 15px;
         text-align: center;
         margin-bottom: 12px;
     }
 
     .butt {
-        font-size: 2vh;
+        font-size: 1.5vh;
         font-weight: 100;
         height: 4vh;
+        text-align: start;
     }
 
     .imagelist {
@@ -326,8 +327,8 @@ i {
     }
 
     input {
-        font-size: xx-small;
-        text-align: center;
+        font-size: x-small;
+        text-align: start;
         height: 4vh;
         width: 50vw;
     }
@@ -349,7 +350,7 @@ i {
     }
 
     .former p {
-        font-size: 2.6vh;
+        font-size: 2vh;
     }
 
 

@@ -8,6 +8,34 @@
 
 }
 
+.decision {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+    width: 35vw;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.former {
+    height: 60vh;
+    width: 20vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
 .butt {
     border: 1px solid orangered;
     background-color: orangered;
@@ -28,6 +56,12 @@
 .drip_small_text {
     font-size: 60px;
     font-weight: bolder;
+}
+
+input {
+    border: 1px solid black;
+    height: 6vh;
+    width: 30vw;
 }
 
 .busi {
@@ -115,8 +149,8 @@ i {
     }
 
     form {
-        width: 30vw;
-        height: 60vh;
+        width: 40vw;
+        height: 70vh;
 
     }
 
@@ -126,8 +160,7 @@ i {
     }
 
     .former {
-        font-size: xx-small;
-        font-size: 5px;
+        width: 40%;
     }
 
     .former p {
@@ -140,12 +173,11 @@ i {
         font-size: 15px;
         text-align: center;
         margin-bottom: 12px;
-        border: 1px solid black;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
     }
 
     .butt {
-
+        width: 50vw;
         font-size: xx-small;
 
     }
@@ -205,6 +237,7 @@ i {
         height: 10vh;
         font-size: x-small;
         display: flex;
+
     }
 
     .busi {
@@ -217,6 +250,7 @@ i {
     }
 
     .Further {
+
         font-size: xx-small;
 
 
@@ -242,8 +276,8 @@ i {
     }
 
     form {
-        width: 30vw;
-        height: 60vh;
+        width: 60%;
+        margin-bottom: 30px;
 
     }
 
@@ -253,13 +287,15 @@ i {
     }
 
     .former {
-        font-size: xx-small;
-        font-size: 5px;
+        width: 160%;
+        margin-bottom: 20px;
+
     }
 
+
     .former p {
-        width: 140%;
-        height: 50vh;
+        width: 62%;
+        height: 20vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -267,26 +303,36 @@ i {
         font-size: 15px;
         text-align: center;
         margin-bottom: 12px;
-        border: 1px solid black;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
     }
 
     .butt {
         font-size: 2vh;
         font-weight: 100;
+        height: 4vh;
     }
 
     .imagelist {
+        width: 85vw;
+        height: 18vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* overflow-y: scroll; */
         font-size: xx-small;
+        
     }
 
     .imagelist b {
-        font-size: 3vh;
+        font-size: 2vh;
     }
 
     input {
         font-size: xx-small;
         text-align: center;
+        height: 4vh;
+        width: 50vw;
     }
 
     .imagelist p {
@@ -295,10 +341,10 @@ i {
         text-align: center;
         border: 1px solid white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-        margin-top: 12px;
-        font-size: x-small;
-        height: 9vh;
-        width: 23vw;
+        font-size: xx-small;
+
+        height: 4vh;
+        width: 20vw;
 
     }
 
@@ -314,13 +360,21 @@ i {
 
     .former b {
         font-size: x-small;
-        color: aqua;
+        color: orangered;
         text-align: center;
         padding-top: 5px;
     }
 
     .decision {
+        display: flex;
+        align-items: start;
+        margin-bottom: 40px;
         font-size: small;
         color: blue;
+    }
+
+    i {
+        font-size: 30px;
+
     }
 }

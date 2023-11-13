@@ -3,20 +3,69 @@
     padding: 0%;
 }
 
-.drip_small_text{
-    font-size: 40px;
-        font-weight: bolder;
+.Further {
+    font-size: 6vh;
+
 }
-.busi{
+
+.butt {
+    border: 1px solid orangered;
+    background-color: orangered;
+    height: 6vh;
+    width: 30vw;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.Further p {
+    font-size: 3vh;
+}
+
+.former b {
+    font-size: 20px;
+}
+
+.drip_small_text {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.busi {
     font-size: x-large;
-        font-size: 25px;
+    font-size: 25px;
 }
-.ques{
+
+.ques {
     font-size: large;
 }
-.bbb{
+
+.bbb {
     font-size: xx-large;
 }
+
+.imagelist {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 50vw;
+    height: 50vh;
+    color: white;
+    text-align: center;
+
+}
+
+.imagelist p {
+    font-size: small;
+}
+
+i {
+    font-size: 90px;
+    color: antiquewhite;
+
+}
+
+.bi-tv {}
+
 /* tablet */
 
 @media screen and (max-width:750px) {
@@ -29,9 +78,10 @@
 
     .busi {
         font-size: 3vh;
-    
+
     }
-    .ques{
+
+    .ques {
         font-size: 2vh;
     }
 
@@ -42,9 +92,17 @@
 
     }
 
-    .drip_small_text {
-        font-size: 4vh;
+    i {
+        font-size: 50px;
+    }
 
+    .drip_small_text {
+        font-size: 3vh;
+
+    }
+
+    .Further p {
+        font-size: x-small;
     }
 
     .sp {
@@ -73,7 +131,7 @@
     }
 
     .former p {
-        width: 200%;
+        width: 170%;
         height: 50vh;
         display: flex;
         align-items: center;
@@ -93,29 +151,35 @@
     }
 
     .imagelist {
-        font-size: xx-small;
+        margin-right: 13%;
     }
 
     .imagelist b {
-        font-size: 5vh;
+        font-size: 3vh;
     }
 
     .imagelist p {
-        width: fit-content;
-        font-size: xx-small;
         text-align: center;
         border: 1px solid white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-        margin-top: 12px;
-    
+        margin-top: 15px;
+        font-size: 2.2vh;
+        width: 23vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
     }
 
     .former p {
         font-size: xx-small;
     }
-.bbb{
-    font: size 4vh;
-}
+
+    .bbb {
+        font: size 4vh;
+    }
 
     .former b {
         font-size: xx-small;
@@ -137,116 +201,126 @@
 @media screen and (max-width:450px) {
     .headhold {
         flex-direction: column;
-            width: 100%;
-            height: 10vh;
-            font-size: x-small;
-            display: flex;
-        }
-    
-        .busi {
-            font-size: 2vh;
-    
-        }
-    
-        .ques {
-            font-size: 1vh;
-        }
-    
-        .Further {
-            font-size: xx-small;
-    
-    
-    
-        }
-    
-        .drip_small_text {
-            font-size: 2vh;
-    
-        }
-    
-        .sp {
-            font-size: x-small;
-        }
-    
-        .further h1 {
-            border: 1px solid red;
-            font-size: 4px;
-        }
-    
-        form {
-            width: 30vw;
-            height: 60vh;
-    
-        }
-    
-        .inp {
-            text-align: center;
-            font-size: xx-small;
-        }
-    
-        .former {
-            font-size: xx-small;
-            font-size: 5px;
-        }
-    
-        .former p {
-            width: 200%;
-            height: 50vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: xx-small;
-            font-size: 15px;
-            text-align: center;
-            margin-bottom: 12px;
-            border: 1px solid black;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-        }
-    
-        .butt {
-    
-            font-size: xx-small;
-    
-        }
-    
-        .imagelist {
-            font-size: xx-small;
-        }
-    
-        .imagelist b {
-            font-size: 3vh;
-        }
-    
-        .imagelist p {
-            width: fit-content;
-            font-size: xx-small;
-            text-align: center;
-            border: 1px solid white;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-            margin-top: 12px;
-        }
-    
-        .bbb {
-            font-weight: 100;
-            font-size: 5vh;
-        }
-    
-        .former p {
-            font-size: xx-small;
-        }
-    
-    
-        .former b {
-            font-size: xx-small;
-            color: aqua;
-            font-size: 1px;
-            width: fit-content;
-            text-align: center;
-            margin-bottom: 12px;
-        }
-    
-        .decision {
-            font-size: small;
-            color: blue;
-        }
+        width: 100%;
+        height: 10vh;
+        font-size: x-small;
+        display: flex;
+    }
+
+    .busi {
+        font-size: 2vh;
+
+    }
+
+    .ques {
+        font-size: 1vh;
+    }
+
+    .Further {
+        font-size: xx-small;
+
+
+
+    }
+
+    .drip_small_text {
+        font-size: 2vh;
+
+    }
+
+    .Further p {
+        font-size: x-small;
+    }
+
+    .sp {
+        font-size: x-small;
+    }
+
+    .further h1 {
+        border: 1px solid red;
+        font-size: 4px;
+    }
+
+    form {
+        width: 30vw;
+        height: 60vh;
+
+    }
+
+    .inp {
+        text-align: center;
+        font-size: xx-small;
+    }
+
+    .former {
+        font-size: xx-small;
+        font-size: 5px;
+    }
+
+    .former p {
+        width: 140%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: xx-small;
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 12px;
+        border: 1px solid black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    }
+
+    .butt {
+        font-size: 2vh;
+        font-weight: 100;
+    }
+
+    .imagelist {
+        font-size: xx-small;
+    }
+
+    .imagelist b {
+        font-size: 3vh;
+    }
+
+    input {
+        font-size: xx-small;
+        text-align: center;
+    }
+
+    .imagelist p {
+        width: fit-content;
+        font-size: xx-small;
+        text-align: center;
+        border: 1px solid white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+        margin-top: 12px;
+        font-size: x-small;
+        height: 9vh;
+        width: 23vw;
+
+    }
+
+    .bbb {
+        font-weight: 100;
+        font-size: 5vh;
+    }
+
+    .former p {
+        font-size: xx-small;
+    }
+
+
+    .former b {
+        font-size: x-small;
+        color: aqua;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .decision {
+        font-size: small;
+        color: blue;
+    }
 }
